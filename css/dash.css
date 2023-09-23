@@ -1,0 +1,159 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 10px 20px;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  font-size: 16px;
+  line-height: 1.5;
+}
+
+header {
+  background-color: #01a66f;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 1rem;
+}
+
+header h1 {
+  font-size: 2rem;
+}
+
+nav {
+  display: flex;
+}
+
+nav ul {
+  display: flex;
+  list-style: none;
+}
+
+nav li {
+  margin-left: 1rem;
+}
+
+main {
+  margin: 2rem;
+}
+main a.button {
+  display: inline-block;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 11px;
+    margin-top: -1%;
+  margin-left: 5%;
+  background-color: #01a66f;
+  color: #fff;
+  font-size: 16px;
+  cursor: pointer;
+  transition: all 0.3s ease;
+    text-decoration: none;
+ }
+ 
+ btn:hover {
+  background-color: #01a66f;
+ }
+
+section {
+  margin-bottom: 2rem;
+}
+
+h2 {
+  margin-bottom: 1rem;
+  font-size: 35px;
+}
+
+canvas {
+  max-width: 100%;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+  margin-top: 1rem;
+}
+
+label {
+  display: block;
+  font-weight: bold;
+  margin-bottom: 10px;
+  font-size: 23px;
+  margin-left: -21px;
+}
+
+input[type="file"] {
+  display: block;
+  margin-bottom: 20px;
+}
+
+input, textarea {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  width: 50%;
+}
+
+button {
+  background-color: #4CAF50; /* Green background */
+  border: none; /* No border */
+  color: white; /* White text */
+  padding: 12px 24px; /* Padding for the text */
+  text-align: center; /* Center align the text */
+  text-decoration: none; /* Remove underline */
+  display: inline-block; /* Make the button inline */
+  font-size: 16px; /* Font size for the text */
+  margin: 4px 2px; /* Add margin */
+  cursor: pointer; /* Add a pointer cursor on hover */
+  border-radius: 4px; /* Add rounded corners */
+  width: 50%;
+}
+
+#header nav.a ul.box li a:first-child {
+  padding: 12px 20px;
+  color: #fff;
+  background: #beeb76;
+  font-weight: 500;
+  border-radius: 30px;
+  font-size: 19px;
+  margin-top: 25px;
+  text-decoration: none;
+}
+#post h2 {
+  font-weight: 600;
+  font-size: 40px;
+}
+#post div.left {
+  width: 670px;
+}
+#post {
+  display: flex;
+}
+#post div.right {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  padding-left: 0px;
+  align-items: center;
+}
+#post div.right h3 {
+  font-size: 30px;
+}
+#post div.right a.button {
+  text-align: center;
+  padding: 12px 20px;
+  color: #fff;
+  background: #4CAF50;
+  font-weight: 500;
+  border-radius: 30px;
+  font-size: 19px;
+  margin-top: 25px;
+  text-decoration: none;
+  width: 185px;
+}
+footer p {
+  text-align: center;
+} 
+

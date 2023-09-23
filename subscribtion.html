@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Subscription Plans</title>
+	<style>
+		body {
+			background-color: #f2f2f2;
+			font-family: Arial, sans-serif;
+		}
+
+		h1 {
+			text-align: center;
+			color: #333;
+			margin-top: 50px;
+		}
+
+		.container {
+			width: 800px;
+			margin: 50px auto;
+			background-color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+			display: flex;
+			flex-wrap: wrap;
+			justify-content: space-between;
+			align-items: center;
+		}
+
+		.plan {
+			width: calc(96.33% - 20px);
+			margin-bottom: 20px;
+			background-color: #fff;
+			border-radius: 5px;
+			padding: 20px;
+			box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+			display: flex;
+			flex-direction: column;
+			align-items: center;
+			justify-content: center;
+			text-align: center;
+			transition: transform 0.3s;
+			cursor: pointer;
+		}
+
+		.plan:hover {
+			transform: scale(1.05);
+		}
+
+		.plan h2 {
+			color: #333;
+			font-size: 28px;
+			margin-bottom: 20px;
+		}
+
+		.plan p {
+			color: #555;
+			font-size: 18px;
+			margin-bottom: 20px;
+		}
+
+		.plan span {
+			color: #333;
+			font-size: 24px;
+			font-weight: bold;
+			margin-bottom: 20px;
+		}
+
+		.plan button {
+			background-color: #333;
+			color: #fff;
+			padding: 10px 20px;
+			border-radius: 5px;
+			border: none;
+			cursor: pointer;
+			transition: background-color 0.3s;
+		}
+
+		.plan button:hover {
+			background-color: #555;
+		}
+		.container a.button {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 11px;
+    margin-top: 1%;
+	margin-left: 45%;
+	background-color: #f90;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #f90;
+}
+	</style>
+</head>
+<body>
+	<h1>Subscription Plans</h1>
+	<div class="container">
+		<div class="plan">
+			<h2>Monthly Plan</h2>
+			<p>Pay every month</p>
+			<span>Rs 199/-</span>
+			<a href="subscribtionpay.html"><button>Select Plan</button></a>
+		</div>
+
+		<div class="plan">
+			<h2>Quarterly Plan</h2>
+			<p>Pay every 3 months</p>
+			<span>Rs 1199/-</span>
+			<a href="subscribtionpay.html"><button>Select Plan</button></a>
+		</div>
+
+		<div class="plan">
+			<h2>Yearly Plan</h2>
+			<p>Pay once a year</p>
+			<span>Rs 2199/-</span>
+			<a href="subscribtionpay.html"><button>Select Plan</button></a>
+		</div>
+		<a href="index.html" class="button">back</a>
+	</div>
+</body>
+</html>

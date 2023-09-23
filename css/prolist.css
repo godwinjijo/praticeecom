@@ -1,0 +1,103 @@
+body {
+	margin: 0;
+	padding: 0;
+	font-family: Arial, sans-serif;
+	background-color: #f2f2f2;
+}
+.header {
+	background-color: #4caf50;
+	color: #fff;
+	text-align: center;
+	padding: 20px;
+}
+.header nav ul {
+    list-style: none; 
+    display: flex;
+    margin: 0;
+    padding: 12%;
+	align-items: center;
+	margin-left: 130%;
+}
+
+.header nav li {
+    margin-right: 20px;
+}
+
+.header nav li:last-child {
+    margin-right: 0;
+}
+
+.header nav a {
+    color: #fff;
+    text-decoration: none;
+	font-size: 30PX;
+}
+
+.container {
+	margin: 20px;
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+.filters {
+	display: flex;
+	justify-content: flex-end;
+	margin: 20px;
+}
+.filters label {
+	margin-right: 10px;
+}
+.product {
+	flex-basis: 30%;
+	background-color: #fff;
+	padding: 20px;
+	margin-bottom: 20px;
+	box-shadow: 0px 0px 5px #ccc;
+	text-align: center;
+}
+.product img {
+	width: 100%;
+	margin-bottom: 10px;
+}
+h1, h2 {
+	margin: 0;
+}
+.price {
+	font-weight: bold;
+}
+div.container div.product img {
+	width: 390px;
+	height: 290px;
+}
+div.header {
+	display: flex;
+}
+div.header img {
+	width: 85px;
+	height: 65px;
+	border-radius: 100%;
+}
+div.header h1 {
+	display: flex;
+	align-items: center;
+	padding-left: 20px;
+} 
+.container a.button {
+	display: inline-block;
+	padding: 10px 20px;
+	border: none;
+	border-radius: 11px;
+    margin-top: 1%;
+	margin-left: 48%;
+	background-color: #f90;
+	color: #fff;
+	font-size: 16px;
+	cursor: pointer;
+	transition: all 0.3s ease;
+    text-decoration: none;
+}
+
+.btn:hover {
+	background-color: #f90;
+}
+ 

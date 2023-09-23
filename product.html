@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Product Name - Product Page</title>
+    <link rel="stylesheet" href="css/product.css">
+</head>
+<body>
+    <header>
+        <img src="Assets/Agricultural logo.jpeg" alt="logo">
+        <h1>FarmConnect</h1>
+        <nav>
+            <ul>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="globalchat.html">Globalchat</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <div class="product-img">
+            <img src="Assets/Garlic_image.jpg" alt="Product Image">
+        </div>
+        <div class="product-info">
+            <h2>Garlic</h2>
+            <h2>Price: Rs 20/kg</h2>
+            <form action="add-to-cart.php" method="POST">
+                <label for="quantity">Quantity(kg):</label>
+                <input type="number" id="quantity" name="quantity" min="1" max="10" value="1">
+                <br>
+                <div class="butt">
+                    <a href="payment.html"><button type="button">Buy Now</button></a>
+                    <button type="submit">Add to Cart</button>
+                </div>
+                
+            </form>
+            <a href="Farmer.html"><h3>Farmer Name:Jarvis</h3></a>
+            <h3>Description</h3>
+            <p>High quality garlic for best prices,no artificial fertilizers added.</p>
+        </div>
+        <a href="product_list.html" class="button">back</a>
+    </main>
+    <div class="chat">
+        <a href="chat.html"><img src="Assets/chat.png" alt="Chat"></a>
+    </div>
+    <footer>
+        <p>&copy; 2023 FarmConnect. All rights reserved.</p>
+    </footer>
+</body>
+</html>

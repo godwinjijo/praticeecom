@@ -1,0 +1,99 @@
+ul li {
+  list-style: none;
+}
+.wrapper {
+  width: 90%;
+}
+body {
+	font-family: "GT-Eesti", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+  margin: 0;
+  padding: 0;
+}
+
+
+#header section.wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+#header div.left {
+  width: 90px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+}
+
+#header div.left div.logo h1 a img {
+  width: 100%;
+  padding: 10px 40px;
+  display: block;
+  border-radius: 100%;
+}
+#header div.left div.heading {
+  padding-left: 90px;
+}
+
+#header div.middle ul li {
+  display: inline-block;
+  padding: 0 10px;
+}
+#header div.right ul li input {
+  padding: 10px 30px;
+  text-align: center;
+  border-radius: 20px;
+}
+#header div.right ul li {
+  display: inline-block;
+  padding: 0 20px;
+}
+#header div.middle {
+  margin-left: 250px;
+}
+#header div.middle a {
+  padding: 20px;
+  text-decoration: none;
+  color: #000;
+  font-size: 20px;
+}
+
+#spotlight {
+  background: url(../Assets/FoodTank_spot.jpg) no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+#spotlight div.cen {
+  padding-left: 75px;
+  padding-top: 70px;
+}
+#spotlight div.cen h1{
+  font-size: 40px;
+  padding-left: 50px;
+}
+#spotlight div.cen h1 span{
+  padding-left: 60px;
+  color: darkgreen;
+}
+#spotlight div.cen a.button {
+  padding: 15px 80px;
+  border-radius: 10px;
+  background: orangered;
+  text-decoration: none;
+  color: #fff;
+  margin-left: 15%;
+}
+#spotlight div.chat {
+  position: bo;
+  position:fixed;
+  width: 5%;
+}
+#spotlight div.chat a img {
+  width: 100%;
+  margin-top: 300%;
+  margin-left: 1900%;
+}

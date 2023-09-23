@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Farmer Dashboard</title>
+    <link rel="stylesheet" href="css/dash.css">
+  </head>
+  <body>
+    <header id="header">
+      <h1>Farmer Dashboard</h1>
+      <nav class="a">
+        <ul class="box">
+          <li><a href="index.html">Home</a></li>
+          <li><a href="profile2.html">Profile</a></li>
+          <li><a href="bank.html">Transaction History</a></li>
+          <li><a href="settings.html">Settings</a></li>
+        </ul>
+      </nav>
+    </header>
+    <main>
+      <section>
+        <h2>Welcome, Jarvis!</h2>
+        <p>Here's your sales performance for the last 30 days:</p>
+        <canvas id="sales-chart"></canvas>
+      </section>
+      <section id="post">
+        <div class="left">
+          <h2>Upload Product</h2>
+          <form class="box">
+            <label for="file-upload">Select an image</label>
+            <input type="file" id="file-upload" name="file-upload">
+            <input type="submit" value="Upload">
+            <label for="post-title">Title</label>
+            <input type="text" id="post-title" name="post-title">
+            <label for="post-body">Body</label>
+            <textarea id="post-body" name="post-body"></textarea>
+            <button type="submit">Upload</button>
+          </form>
+        </div>
+        <div class="right"> 
+          <h3>Link Your Bank Account</h3>
+          <a href="bank_link.html" class="button">Add Account</a>
+        </div>
+      </section>
+      <a href="index.html" class="button">back</a>
+    </main>
+    <footer>
+      <p>&copy; 2023 FarmConnect</p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="dash.js"></script>
+  </body>
+</html>
